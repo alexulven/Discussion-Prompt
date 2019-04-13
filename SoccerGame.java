@@ -8,6 +8,7 @@ public class SoccerGame {
 		zidane.commitFoul(matt);
 		Referee ref = new Referee();
 		if (ref.handOutCard(zidane, matt)) {
+			System.out.println("Zidane is leaving!");
 			zidane.leaveField();
 			
 		}
